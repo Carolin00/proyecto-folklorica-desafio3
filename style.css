@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;   
+}
+
+/*---------------------------------------------HOME--------------------*/
+.home__image--background {
+    background-image: url(./img/banner-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    position: absolute;
+    top: 4.5rem; 
+    right: 8rem;     
+}
+
+.menu li {
+    font-family: 'inter', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #363636;
+    color: #F3E8D4;
+    text-decoration: none;
+    padding: 0.1rem;
+}
+
+.nav a:visited {
+    color: #F3E8D4;
+    text-decoration: none;
+    }
+
+.nav a:hover {
+    font-weight: 300;
+}
+
+.nav a:link {
+    color: #F3E8D4;
+    text-decoration: none;
+}
+
+.home__title {
+    color: #F3E8D4;
+    font-size: 6em;
+    font-family: 'inter', serif;
+    position: absolute;
+    bottom: 15rem;
+    left: 31rem;
+}
+
+.home__title--background {
+    background-color: #363636;
+    display: table;
+    padding: 0.02rem;
+}                            
+
+.homeRedes ul {
+    position: absolute;
+    margin-top: 60rem;
+    margin-left: 31rem;
+}
+
+.homeRedes li {
+    display: inline-block;
+}
+
+        /*------------------------------- TITULOS Y ELEMENTOS DE TODAS LAS PAGINAS -----------*/
+
+        .titles {
+            color: #F3E8D4;
+            font-size: 2.9em;
+            font-family: 'inter', serif;
+            text-align: center;
+            font-weight: 100;
+            line-break: auto;
+            margin-top: 12rem;
+            margin-bottom: 4rem;
+        }
+        
+        .hr, .lines {
+            border-top: 1px solid #F3E8D4;
+            height: 1px;
+            max-width: 120px;
+            padding: 0;
+            margin: 20px auto 70px auto;
+        
+        }
+/*--------------------------------------------------ABOUT----------------------------*/
+
+.gradient__background {
+background: linear-gradient(180deg, rgba(12,13,23,1) 0%, rgba(24,25,47,1) 63%, rgba(78,46,37,1) 100%);
+}
+
+.aboutText {
+    width: 100%;
+    position: relative;
+}
+
+.aboutText__parrafo {
+    color: #F3E8D4;
+    width: 800px;
+    font-size: 1.9rem;
+    font-family: 'inter', serif;
+    font-weight: 100;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#aboutText--italic--bold {
+    color: #F3E8D4;
+    font-size: 1.1em;
+    font-family: 'inter', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.aboutMembersTitles {
+    color: #F3E8D4;
+    font-size: 15px;
+    font-family: 'inter', serif;
+    font-weight: bold;
+}
+
+.mainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutCards {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+.aboutBox {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.aboutBox__img {
+    width: 270px;
+    padding: 0.2rem;
+}
+
+/*-------------------------------------------------------------------------ESCUCHANOS----------*/
+
+/*No logre que se vea el navegador en esta pagina*/ 
+
+.mainEscuchanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorIzq {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0%; 
+}
+
+.bloquePantallaIzq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(12,13,23,1) 0%, rgba(24,25,47,1) 63%, rgba(78,46,37,1) 100%);;
+    height: 100vh;
+    width: 50vw;
+}
+
+.contenedorDer {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+.bloquePantallaDer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(12,13,23,1) 0%, rgba(24,25,47,1) 63%, rgba(78,46,37,1) 100%);
+    height: 100vh;
+    width: 50vw;
+}
+
+.titlesEscuchanos {
+    color: #F3E8D4;
+    font-size: 3em;
+    font-family: 'inter', serif;
+    align-items: center;
+    font-weight: 100;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    position: relative;
+} 
+
+.linesEscuchanos {
+    height: 1px;
+    width: 115px;
+    background-color: #F3E8D4;
+    display: block;
+    margin-bottom: 7rem;
+    position: relative;
+}
+
+.escuchanos__description {
+    color: #F3E8D4;
+    width: 600px;
+    font-size: 1.6em;
+    font-family: 'inter', serif;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 4rem;
+}
+
+.iframes {
+    position: absolute;
+    height: 250px;
+    bottom: 15vh;
+}
+
+.iframeSpoti {
+    border-radius: 12px;
+    width: 600px;
+}
+
+.iframeYoutube {
+    border-radius: 12px;
+    width: 600px;
+}
+
+.footerEscuchanos {  /*Tuve que hacer una nueva clase para el footer de ESCUCHANOS porque si saco el 'position absolute' no me aparece. Y se al footer general le saco la posicion relativa, me queda ubicado en cualquier lado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;   
+    background-color: #3d3c3c84;
+    position: absolute;
+    bottom: 0px;
+    gap: 18px;  /*en un momento anduvo el gap y de repente dejo de funcionar*/
+}
+
+/*----------------------------------------------------------------ENTRADAS-------------------*/
+
+.entradas__background {
+    background-image: url(./img/banner-home.jpg);   
+    background-size: cover;
+    background-color: rgba(48, 48, 48, 0.671);
+    background-blend-mode: soft-light;  
+}
+
+.entradasTabla {
+    position: absolute;
+    left: 35vw;
+}
+
+th, td {
+    width: 220px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.entradasTabla__font {
+    font-family: 'inter', serif;
+    font-weight: 200;
+    font-size: 1.8em;
+    color: #F3E8D4;
+}
+
+.entradasTabla__date {
+    width: 180px;
+}
+
+.entradasTabla__button {
+width: 90px;
+padding: 5px;
+font-family: 'inter', serif;
+color: #F3E8D4;
+font-weight: 200;
+height: 28px;
+font-size: 0.7em;
+border-radius: 12px;
+background-color: transparent;
+border: 1px solid #fdf6ec92;
+}
+
+/*-------------------------------------------------------------------------CONTACTO----------------*/
+
+.contenedorForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.formCampos {
+    display: block;
+    width: 420px;
+    height: 27px;
+    background-color: transparent;
+    border: 1px solid #fdf6ec92;
+    border-radius: 14px;
+    padding: 5px;
+    font-family: 'inter', serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #F3E8D4;
+}
+
+.message {
+height: 220px;
+background-color: transparent;
+border-radius: 15px;
+}
+
+.formBoton {
+    width: 90px;
+    padding: 5px;
+    font-family: 'inter', serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    color: #F3E8D4;
+    border-radius: 8px; 
+}
+
+/*----------------------------------------------------------------------FOOTER-------------------*/
+
+.footer {    
+    position: relative;
+    bottom: 0px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;   
+    background-color: #3d3c3c84;
+    gap: 18px;
+}
